@@ -1,8 +1,8 @@
 const Users = [{
     userId: 1,
-    userName: 'Admin',
+    userName: 'Urmila',
     userEmail: 'urmilashirole2001@gmail.com',
-    userPwd: 'admin@123',
+    userPwd: 'urmila@123',
     phone: '9876543210',
     address: 'Ajwa Road, Vadodara'
 },
@@ -15,12 +15,20 @@ const Users = [{
     address: 'Ajwa Road, Vadodara'
 },
 {
-userId: 3,
-userName: 'Prince',
-userEmail: 'sagarrabari825@gmail.com',
-userPwd: 'prince@123',
-phone: '9876543210',
-address: 'Ajwa Road, Vadodara'
+    userId: 3,
+    userName: 'Admin',
+    userEmail: 'admin@gmail.com',
+    userPwd: 'admin@123',
+    phone: '9876543210',
+    address: 'Ajwa Road, Vadodara'
 },
+{
+    userId: 4,
+    userName: 'demo',
+    userEmail: 'demo@demo',
+    userPwd: 'demo',
+    phone: '9898989898',
+    address: 'vip road, Vadodara' 
+},                 
 ];
 export default Users;
