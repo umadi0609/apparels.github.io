@@ -149,7 +149,7 @@ const Products = [{
 	},
 
 	{
-    id: 17,
+   	 id: 17,
 	image: "images/product17.jpg",
 	name: "Hopscotch Boys Overall and Dress Set",
 	category: "kids",
@@ -158,7 +158,7 @@ const Products = [{
 	},
 
 	{
-    id: 18,
+   	id: 18,
 	image: "images/product18.jpg",
 	name: "Hopscotch Boys Overall and Dress Set",
 	category: "kids",
@@ -167,13 +167,22 @@ const Products = [{
 	},
 
 	{
-		id: 19,
-		image: "images/product19.jpg",
-		name: "Men Traditional Sherwani",
-		category: "traditional",
-		price:"Rs.1780",
-		description: "Men traditional wear for parties, marriages, functions.Men traditional wear for parties, marriages, functions.Men traditional wear for parties, marriages, functions."
-		}
+	id: 19,
+	image: "images/product19.jpg",
+	name: "Men Traditional Sherwani",
+	category: "traditional",
+	price:"Rs.1780",
+	description: "Men traditional wear for parties, marriages, functions.Men traditional wear for parties, marriages, functions.Men traditional wear for parties, marriages, functions."
+	},
+
+	{
+	id: 20,
+	image: "images/product20.jpg",
+	name: "Women Traditional Lehenga",
+	category: "traditional",
+	price:"Rs.1520",
+	description: "Women traditional wear for Reception, marriages, functions.Men traditional wear for parties, marriages, functions.Men traditional wear for parties, marriages, functions."
+	},
 
 
 ];
