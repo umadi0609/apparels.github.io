@@ -15,6 +15,9 @@ const centeredCard = {
   <div className="card bg-dark text-white shadow">
   <div className="card-header"><strong>Apparel</strong></div>
   <div className="card-body">
+  <div className="col-md-12 bg-danger p-2 text-center">
+  <p className='fs-5'>*Instructions : Email - demo@demo | Password - demo</p>
+  </div>
   <form onSubmit={handleSubmit}>
   <div className="mb-3 mt-3">
     <label for="email" className="form-label">Email:</label>
