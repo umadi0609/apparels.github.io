@@ -5,7 +5,6 @@ const Login = ({ formData, handleInputChange, handleSubmit, errorMsg }) => {
     alignItems: 'center',
     justifyContent: 'center',
     height: '90vh',
-    minWidth: '40vh'
   }
   return (
     <>
@@ -15,7 +14,7 @@ const Login = ({ formData, handleInputChange, handleSubmit, errorMsg }) => {
             <div className="card bg-dark text-white shadow">
               <div className="card-header"><strong>Apparel</strong></div>
               <div className="card-body">
-                <div className="col-md-9 bg-danger text-center">
+                <div className="col-md-6 bg-danger text-center">
                   <p className='fs-6'>*Instructions : Email - demo@demo | Password - demo</p>
                 </div>
                 <form onSubmit={handleSubmit}>
