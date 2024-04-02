@@ -14,23 +14,6 @@ const Navbar = ({userData, logout}) => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul className="navbar-nav">
-                        {/* Add search field with search icon */}
-                        <li className="nav-item">
-                            <form className="form-inline">
-                                <div className="input-group">
-                                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                    <div className="input-group-append">
-                                        <button className="btn btn-outline-light" type="submit">
-                                            <i className="fas fa-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </li>
-                    </ul>
-                </div>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         {/* Add any additional navigation items here */}
