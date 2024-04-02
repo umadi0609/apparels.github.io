@@ -12,9 +12,9 @@ const ProductDetail = ({ selectedProduct, setSelectedProduct, addToCart }) => {
 
 
     return (
-        <div className="container m-5">
+        <div className="container">
             <div className="card w-50">
-                <img src={image} className="card-img-top" alt="Product Image" style={{ width: '400px', objectFit: 'cover' }} />
+                <img src={image} className="card-img-top mt-5 img-center" alt="Card image" style={{width:'100%' }} />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Category: {category}</p>
